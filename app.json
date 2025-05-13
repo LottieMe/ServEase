@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ServEase",
+    "slug": "ServEase",
+    "version": "1.0.1",
+    "assetBundlePatterns": [
+      "*/",
+      "assets/fonts/*"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/ServEase-LOGO.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "INTERNET"
+      ],
+      "package": "com.abeast.ServEase"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4e20ccea-dc7d-4a2c-a354-2bc7fa2f9268"
+      }
+    }
+  }
+}
